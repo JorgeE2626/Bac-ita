@@ -1,4 +1,4 @@
-package com.example.navegacion.ui.theme
+package com.example.navegacion.ui.theme.screens
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*

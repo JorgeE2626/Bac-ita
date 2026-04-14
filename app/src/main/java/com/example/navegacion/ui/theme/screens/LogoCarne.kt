@@ -1,4 +1,4 @@
-package com.example.navegacion.ui.theme
+package com.example.navegacion.ui.theme.screens
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -11,6 +11,12 @@ import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 import androidx.navigation.NavController
+import com.example.navegacion.ui.theme.AzulGrafica
+import com.example.navegacion.ui.theme.CyanUbicacion
+import com.example.navegacion.ui.theme.NaranjaEco
+import com.example.navegacion.ui.theme.RojoCarne
+import com.example.navegacion.ui.theme.RosaGrafica
+import com.example.navegacion.ui.theme.VerdeJeringa
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

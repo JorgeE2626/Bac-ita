@@ -1,4 +1,4 @@
-package com.example.navegacion.ui.theme
+package com.example.navegacion.ui.theme.screens
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -15,6 +15,8 @@ import kotlinx.coroutines.launch
 import android.content.Intent
 import android.net.Uri
 import androidx.compose.ui.platform.LocalContext
+import com.example.navegacion.ui.theme.FondoGris
+import com.example.navegacion.ui.theme.VerdeChip
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -180,7 +182,7 @@ fun InfoField(label: String, value: String) {
 @Composable
 fun Chip(text: String) {
     Box(
-        modifier = Modifier
+        modifier = Modifier.Companion
             .background(VerdeChip, shape = RoundedCornerShape(16.dp))
             .padding(horizontal = 12.dp, vertical = 6.dp)
     ) {

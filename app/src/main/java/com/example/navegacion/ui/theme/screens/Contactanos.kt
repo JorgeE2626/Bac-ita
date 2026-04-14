@@ -1,8 +1,7 @@
-package com.example.navegacion.ui.theme
+package com.example.navegacion.ui.theme.screens
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
