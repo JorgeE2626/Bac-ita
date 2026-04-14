@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <include layout="@layout/toolbar"/>
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número ID"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"/>
+
+        <EditText
+            android:id="@+id/etRaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Raza"/>
+
+        <CheckBox
+            android:id="@+id/cbNacidaRancho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nacida en rancho"/>
+
+        <EditText
+            android:id="@+id/etPadre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Padre ID"/>
+
+        <EditText
+            android:id="@+id/etMadre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Madre ID"/>
+
+        <Spinner
+            android:id="@+id/spGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spGiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (KG)"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/etEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/etAlimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alimentos sugeridos"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"/>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Ganado"/>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Datos"/>
+
+    </LinearLayout>
+</ScrollView>

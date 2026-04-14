@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <include layout="@layout/toolbar"/>
+
+        <EditText android:id="@+id/etPeso" android:hint="Peso Actual"/>
+        <EditText android:id="@+id/etVariacion" android:hint="Variación de peso"/>
+        <EditText android:id="@+id/etFecha" android:hint="Fecha"/>
+
+        <EditText android:id="@+id/etCrias" android:hint="Crías"/>
+
+        <Spinner android:id="@+id/spEstado"/>
+        <Spinner android:id="@+id/spGiro"/>
+
+        <TextView android:text="Vacunas"/>
+        <CheckBox android:text="Fiebre Aftosa"/>
+        <CheckBox android:text="Brucelosis"/>
+        <CheckBox android:text="Clostridiosis"/>
+        <CheckBox android:text="IBR"/>
+        <CheckBox android:text="BVD"/>
+        <CheckBox android:text="Mastitis"/>
+
+        <EditText android:id="@+id/etNotas" android:hint="Notas"/>
+
+        <Button android:id="@+id/btnActualizar" android:text="Actualizar Datos"/>
+
+    </LinearLayout>
+</ScrollView>

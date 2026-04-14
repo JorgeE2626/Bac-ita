@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TOOLBAR -->
+        <include layout="@layout/toolbar"/>
+
+        <!-- IMAGEN -->
+        <ImageView
+            android:id="@+id/imgRancho"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="#DDD"/>
+
+        <!-- SPINNER FOTO -->
+        <Spinner
+            android:id="@+id/spinnerFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- CAMPOS -->
+        <EditText
+            android:id="@+id/etNombre"
+            android:hint="Nombre"
+            android:maxLength="100"/>
+
+        <EditText
+            android:id="@+id/etHectareas"
+            android:hint="Hectáreas Totales"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/etPropietario"
+            android:hint="Propietario"
+            android:maxLength="100"/>
+
+        <EditText
+            android:id="@+id/etVeterinario"
+            android:hint="Veterinario Encargado"
+            android:maxLength="100"/>
+
+        <!-- GANADO -->
+        <TextView android:text="Ganado"/>
+
+        <LinearLayout android:orientation="vertical">
+            <CheckBox android:text="Bovino"/>
+            <CheckBox android:text="Caprino"/>
+            <CheckBox android:text="Ovino"/>
+            <CheckBox android:text="Porcino"/>
+            <CheckBox android:text="Equino"/>
+            <CheckBox android:text="Avícola"/>
+        </LinearLayout>
+
+        <!-- UBICACION -->
+        <TextView android:text="Localización"/>
+        <TextView android:text="20355 San Francisco de los Romo, Ags."/>
+
+        <ImageView
+            android:id="@+id/mapa"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@android:drawable/ic_dialog_map"/>
+
+        <!-- BOTONES -->
+        <Button
+            android:id="@+id/btnRegistrarGanado"
+            android:text="Registrar Ganado"
+            android:backgroundTint="#5A6FD6"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:text="Guardar"
+            android:backgroundTint="#5A6FD6"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:text="Eliminar"
+            android:backgroundTint="#E57373"/>
+
+    </LinearLayout>
+</ScrollView>
